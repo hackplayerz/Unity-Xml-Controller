@@ -78,7 +78,7 @@ public class XMLController
             if(strAttribute != null && strAttributeValue != null)
                 writer.WriteAttributeString(strAttribute,strAttributeValue);
             
-            // Maybe...GC 
+            
             foreach( var key in strKeys )
             {
                 // Write data
